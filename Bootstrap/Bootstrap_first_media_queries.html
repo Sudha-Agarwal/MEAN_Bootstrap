@@ -1,0 +1,289 @@
+<head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <title>Basic Bootstrap Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<style>
+    div.example {
+  background-color: yellow;
+  padding: 20px;
+}
+body {
+  background-color: lightgreen;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+/*@media only screen and (orientation: landscape) {
+  body {
+    background-color: grey;
+  }
+}*/
+@media only screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
+
+  /*  p{
+        padding: 50px;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        background: #dbdfe5;
+    }*/
+</style>    
+</head>
+<body>
+    <h1>Hello World</h1>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <div class="container-md bg-dark text-white py-4 my-3">100% wide until screen size less than 576px</div>
+
+<div class="d-grid gap-3">
+  <div class="p-2 bg-light border">Grid item 1</div>
+  <div class="p-2 bg-light border">Grid item 2</div>
+  <div class="p-2 bg-light border">Grid item 3</div>
+</div>
+
+ <div class="d-grid">
+  <button class="p-2 my-2 btn btn-primary" type="button">Button</button>
+   <button class="p-2 my-2 btn btn-primary" type="button">Button</button>
+</div>
+
+<div class="container border">
+        <h1>Responsive Image </h1>
+        <br>
+        <h3>.img-responsive class</h3>
+         
+<p>
+            Change the size of the browser window
+            to see effect
+        </p>
+ 
+        <img src="download.jpg"
+             class = "img-fluid" alt="Responsive image" >
+             
+    </div>
+
+    <br><br>
+
+    <div class="example">Example DIV.</div>
+
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-xl-4 col-md-6"><p>Box 1</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 2</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 3</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 4</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 5</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 6</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 7</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 8</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 9</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 10</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 11</p></div>
+            <div class="col-xl-4 col-md-6"><p>Box 12</p></div>
+        </div>
+    </div>
+
+
+    <div class="container mt-3">
+  <p class="h1">h1 Bootstrap heading</p>
+  <p class="h2">h2 Bootstrap heading</p>
+  <p class="h3">h3 Bootstrap heading</p>
+  <p class="h4">h4 Bootstrap heading</p>
+  <p class="h5">h5 Bootstrap heading</p>
+  <p class="h6">h6 Bootstrap heading</p>
+</div>
+
+<div class="container border mt-4">
+    <div class ="m-4">
+<div class="d-flex">
+    <div class="flex-shrink-0">
+        <img src="images/avatar.jpg" class="rounded-circle" alt="Sample Image" style="width:60px">
+    </div>
+    <div class="flex-grow-1 ms-5">
+        <h5>Jhon Carter <small class="text-muted"><i>Posted on January 10, 2021</i></small></h5>
+        <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap component into use and I'll let you know once I do.</p>
+    </div>
+</div>
+<hr>
+    <div class="d-flex">
+        <div class="flex-grow-1 me-5">
+            <h5>Jhon Carter <small class="text-muted"><i>Posted on January 10, 2021</i></small></h5>
+            <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap component into use and I'll let you know once I do.</p>
+        </div>
+        <div class="flex-shrink-0">
+            <img src="images/avatar.jpg" width="80" height="80" alt="Sample Image">
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="media-object">
+    <div class="media-object-section">
+        <div class="thumbnail">
+            <img src = "img.jpg" style="width:60px">
+        </div>
+    </div>
+        <div class="media-object-section">
+            <h4>Comment Heading</h4>
+            <p>some comments.....</p>
+    </div>
+</div>
+</div> -->
+
+<div class="container my-3 mb-5">
+  <h2>Basic Card</h2>
+  <div class="card">
+    <div class="card-body">Basic card</div>
+  </div>
+</div>
+
+
+<div class="card" style="width:200px">
+  <img class="card-img-top" src="images/avatar.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+
+<!-- JumboTron -->
+<div class="container mt-3">
+  <h2>Example of Jumbotron</h2>
+  <div class="mt-4 p-5 bg-primary text-white rounded">
+    <h1>Jumbotron Example</h1> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+  </div>
+</div>
+
+<div class="container mt-3">
+  <h2>Badges</h2>
+  <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+  <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+  <h3>Example heading <span class="badge bg-secondary">New</span></h3>
+  <h4>Example heading <span class="badge bg-secondary">New</span></h4>
+  <h5>Example heading <span class="badge bg-secondary">New</span></h5>
+  <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+   <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+</div>
+
+<p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+
+<i class="fas fa-cloud"></i>
+<i class="fas fa-coffee"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-bars"></i>
+
+
+<!-- List group -->
+<ul class="list-group">
+    <li class="list-group-item active">First item</li>
+    <li class="list-group-item">Second item</li>
+    <li class="list-group-item">Third item</li>
+  </ul>
+<hr>
+  <ol class="list-group list-group-numbered">
+  <li class="list-group-item">First item</li>
+  <li class="list-group-item">Second item</li>
+  <li class="list-group-item">Third item</li>
+</ol>
+
+
+<hr>
+<button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-link">Link</button>
+
+<hr>
+<a href="#" class="btn btn-success">Link Button</a>
+  <button type="button" class="btn btn-success">Button</button>
+  <input type="button" class="btn btn-success" value="Input Button">
+  <input type="submit" class="btn btn-success" value="Submit Button">
+  <input type="reset" class="btn btn-success" value="Reset Button">
+
+
+<!-- button group -->
+<div class="btn-group" role="group">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <button type="button" class="btn btn-primary">Sony</button>
+</div>
+
+
+<hr>
+<br>
+<!-- Dropdown -->
+
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Link 1</a></li>
+    <li><a class="dropdown-item" href="#">Link 2</a></li>
+    <li><a class="dropdown-item" href="#">Link 3</a></li>
+  </ul>
+</div>
+
+<br><br>
+<div class="card-footer bg-transparent border-success">hhdfghd</div>
+
+<br><br>
+  <h2>Card Header and Footer</h2>
+  <div class="card">
+    <div class="card-header bg-transparent border-success">Header</div>
+    <div class="card-body">Content</div> 
+    <div class="card-footer">Footer</div>
+  </div>
+
+<br><br><hr>
+  <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+
+<br><br><hr>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Link1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link2</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link3</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+
+</body>
+</head>
